@@ -25,7 +25,7 @@ def main():
    
 
     for _ in range(3):
-        drawIt(4, d)
+        drawIt(4, 240)
         tu.right(120)
     
     tu.done()
