@@ -22,11 +22,10 @@ def drawIt(n, d):
         
 def main():
     startPosition()
-    n = int(input('size:'))
-    d = int(input('length:'))
+   
 
     for _ in range(3):
-        drawIt(n, d)
+        drawIt(4, d)
         tu.right(120)
     
     tu.done()
